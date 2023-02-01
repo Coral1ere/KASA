@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "kasa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,8 +36,6 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "eslint": "^8.32.0",
-    "eslint-plugin-react": "^7.32.1"
+    "@testing-library/jest-dom": "^5.16.5"
   }
 }
