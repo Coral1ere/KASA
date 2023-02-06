@@ -5,7 +5,11 @@ body {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: auto;
+  width: auto;
+}
+img {
+  max-height: 100%;
+  width: auto;
 }
 
 code {

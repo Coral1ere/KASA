@@ -5,7 +5,11 @@ import "../style/banner.css";
 const Banner = () => {
   return (
     <div className="banniere">
-      <p>Chez vous, partout et ailleurs</p>
+      <p>
+        Chez vous,
+        <br />
+        partout et ailleurs
+      </p>
       <img
         className="banniereImg"
         src={Banniere}

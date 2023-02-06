@@ -1,24 +1,39 @@
 .banniereImg {
-    border-radius: 25px;
-    filter: brightness(0.7);
-    position: relative;
-    z-index: 1;
-    margin-top: 3%;
-    width: 1403px;
-    object-fit: cover;
+  border-radius: 25px;
+  filter: brightness(0.7);
+  position: relative;
+  z-index: 1;
+  margin-top: 3%;
+  width: 88%;
+  object-fit: cover;
 }
 .banniere p {
-    position: absolute;
-    z-index: 2;
-    font-size: 48px;
-    color: white;
-    right: 32.14%;
-    top: 30.32%;
-    bottom: 69.04%;
+  position: absolute;
+  z-index: 2;
+  font-size: 3vw;
+  color: white;
+  right: 32.14%;
+  top: 30.32%;
+  bottom: 69.04%;
 }
 .banniere {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 4%;
+}
+.banniere br {
+  display: none;
+}
+
+@media (max-width: 822px) {
+  .banniere br {
+    display: initial;
+  }
+  .banniere p {
+    top: 8.32%;
+    bottom: 52.04%;
+    right: 50.14%;
+    font-size: 4vw;
+  }
 }

@@ -1,16 +1,15 @@
 .footer {
-    display: flex;
-    position: relative;
-    background: #000000;
-    margin: 6%;
-    width: 1403px;
-    height: 180px;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  position: relative;
+  background: #000000;
+  margin: 6%;
+  height: 180px;
+  flex-direction: column;
+  align-items: center;
 }
 .logos {
-    padding-top: 4%;
+  padding-top: 4%;
 }
 .reserved {
-    color: white;
+  color: white;
 }

@@ -1,24 +1,46 @@
 .Header {
-    margin-top: 3%;
+  margin-top: 3%;
 }
 .logo {
-    margin-left: 3%;
+  margin-left: 3%;
 }
 .Headers {
-    position: relative;
-    margin-top: -3%;
+  position: relative;
+  margin-top: -3%;
+}
+.Headersa {
+  font-size: 14px;
+}
+.Headersa :hover {
+  text-decoration: underline;
 }
 .accueil {
-    text-decoration: underline;
-    color: #FF6060;
-    font-size: 24px;
-    position: absolute;
-    right: 16.95%;
+  text-decoration: none;
+  color: #ff6060;
+  font-size: 1.5em;
+  position: absolute;
+  right: 17.95vw;
 }
 .aPropos {
-    text-decoration: none;
-    color: #FF6060;
-    font-size: 24px;
-    position: absolute;
-    left: 86.65%;
+  text-decoration: none;
+  color: #ff6060;
+  font-size: 1.5em;
+  position: absolute;
+  left: 84.65vw;
+}
+
+@media (max-width: 767px) {
+  .Headersa {
+    font-size: 1.2vw;
+    text-transform: uppercase;
+  }
+  img {
+    height: auto;
+  }
+  .accueil {
+    right: 23.95vw;
+  }
+  .aPropos {
+    left: 79.65vw;
+  }
 }
