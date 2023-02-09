@@ -1,0 +1,12 @@
+.tagsWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tagsLogement {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-right: 10px;
+  background: rgba(255, 96, 96, 1);
+}

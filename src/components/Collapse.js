@@ -20,13 +20,13 @@ const Collapse = (props) => {
         </div>
         {open ? (
           <img
-            className="vectorup"
+            className="vectorUp"
             src={VectorUp}
             alt="Flêche vers le haut"
           ></img>
         ) : (
           <img
-            className="vectordown"
+            className="vectorDown"
             src={VectorDown}
             alt="Flêche vers le bas"
           ></img>

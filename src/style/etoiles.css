@@ -1,0 +1,11 @@
+.noteEtoilePleine {
+  color: rgba(227, 227, 227, 1);
+}
+
+.noteEtoileVide {
+  color: rgba(255, 96, 96, 1);
+}
+.notes {
+  display: flex;
+  justify-content: flex-start;
+}

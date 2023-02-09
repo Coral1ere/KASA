@@ -7,14 +7,15 @@
   width: 88%;
   object-fit: cover;
 }
+.banniereImgMob {
+  display: none;
+}
 .banniere p {
   position: absolute;
   z-index: 2;
-  font-size: 3vw;
+  font-size: 4vw;
   color: white;
-  right: 32.14%;
-  top: 30.32%;
-  bottom: 69.04%;
+  margin-top: 9%;
 }
 .banniere {
   display: flex;
@@ -26,14 +27,29 @@
   display: none;
 }
 
-@media (max-width: 822px) {
+@media (max-width: 600px) {
+  .banniere {
+    align-items: flex-start;
+  }
   .banniere br {
     display: initial;
   }
   .banniere p {
-    top: 8.32%;
-    bottom: 52.04%;
-    right: 50.14%;
-    font-size: 4vw;
+    font-weight: 500;
+    margin: 12% 0 0 -40%;
+  }
+  .banniereImg {
+    display: none;
+  }
+  .banniereImgMob {
+    display: initial;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 10px;
+    width: 84%;
+    height: 111px;
+    filter: brightness(0.7);
+    margin: 3% 0 -8% 0;
   }
 }

@@ -1,0 +1,55 @@
+.container-slideshow {
+  width: 1240px;
+  height: 415px;
+  overflow: hidden;
+  border-radius: 25px;
+  position: relative;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  margin: 1em auto;
+  mix-blend-mode: normal;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  max-height: 415px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+}
+
+.flecheDroite,
+.flecheGauche {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 40%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  z-index: 1;
+  cursor: pointer;
+}
+.flecheDroite {
+  right: 0;
+}
+
+.numbertext {
+  z-index: 1;
+  position: absolute;
+  right: 49.11%;
+  top: 86.19%;
+  bottom: 6.01%;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}

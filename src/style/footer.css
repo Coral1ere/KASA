@@ -13,3 +13,9 @@
 .reserved {
   color: white;
 }
+
+@media (max-width: 600px) {
+  .footer {
+    margin: 0 8%;
+  }
+}

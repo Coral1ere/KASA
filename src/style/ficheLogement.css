@@ -1,0 +1,94 @@
+.fiche-logement {
+  display: flex;
+  flex-direction: column;
+  width: 1240px;
+  color: rgba(255, 255, 255, 1);
+}
+.dataLogement {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adressLogement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.localisationLogement {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleFicheLogement {
+  font-size: 36px;
+  line-height: 142.6%;
+  color: #ff6060;
+}
+
+.txtLocationLogement {
+  color: #ff6060;
+  font-size: 18px;
+  margin-top: -25px;
+}
+
+.tagLogement {
+  display: flex;
+  margin-bottom: 10px;
+}
+.dataPropLogement {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ficheProp {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.detailsProp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsProp p {
+  font-weight: 500;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.logementHostPicture {
+  display: flex;
+  justify-content: flex-end;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #c4c4c4;
+  margin-right: 10px;
+}
+
+.menuDescription {
+  display: flex;
+  flex-direction: column;
+  width: 582px;
+  height: 249px;
+  top: 42px;
+  color: rgba(255, 96, 96, 1);
+  font-size: 24px;
+}
+
+.menuEquipements {
+  display: flex;
+  flex-direction: column;
+  width: 582px;
+  height: 249px;
+  top: 42px;
+  color: rgba(255, 96, 96, 1);
+  font-size: 24px;
+}
+
+.menuDescription li,
+.menuEquipements li {
+  list-style-type: none;
+}

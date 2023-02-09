@@ -18,3 +18,20 @@
 .AProposSection content {
   color: white;
 }
+.AProposImgMob {
+  display: none;
+}
+@media (max-width: 822px) {
+  .AProposImgImg {
+    display: none;
+  }
+  .AProposImgMob {
+    display: initial;
+    width: 83%;
+    height: 266px;
+    margin: 7%;
+    border-radius: 10px;
+    filter: brightness(0.7);
+    object-fit: cover;
+  }
+}

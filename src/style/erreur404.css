@@ -1,0 +1,41 @@
+.erreur {
+  text-align: center;
+  margin-top: 11%;
+}
+.oups {
+  color: #ff6060;
+  font-size: 36px;
+  margin-top: 6%;
+}
+.oups br {
+  display: none;
+}
+.retour {
+  color: #ff6060;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  font-weight: 500;
+}
+.erreur404 {
+  object-fit: contain;
+}
+
+@media (max-width: 822px) {
+  .oups br {
+    display: initial;
+  }
+  .oups {
+    font-size: 18px;
+  }
+  .erreur404 {
+    width: 198px;
+    height: 99px;
+    margin: 24% 0 -4% 0;
+  }
+  .retour {
+    margin: 30% 0;
+    font-size: 14px;
+  }
+}
