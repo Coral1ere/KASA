@@ -13,9 +13,10 @@
 .banniere p {
   position: absolute;
   z-index: 2;
-  font-size: 4vw;
+  font-size: 3vw;
   color: white;
   margin-top: 9%;
+  font-weight: 500;
 }
 .banniere {
   display: flex;

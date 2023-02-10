@@ -6,7 +6,15 @@
 .tagsLogement {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 174px;
+  height: 25px;
   border-radius: 10px;
-  margin-right: 10px;
+  margin: 0 2% 2% 0;
   background: rgba(255, 96, 96, 1);
+}
+
+.tagsLogement span {
+  font-size: 14px;
+  font-weight: 500;
 }

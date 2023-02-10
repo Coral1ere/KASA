@@ -1,11 +1,13 @@
-.noteEtoilePleine {
+.noteEtoileVide {
   color: rgba(227, 227, 227, 1);
 }
 
-.noteEtoileVide {
+.noteEtoilePleine {
   color: rgba(255, 96, 96, 1);
 }
-.notes {
+
+.notes span {
+  width: 30px;
+  height: 30px;
   display: flex;
-  justify-content: flex-start;
 }

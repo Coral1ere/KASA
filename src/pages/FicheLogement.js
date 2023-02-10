@@ -1,11 +1,13 @@
+import Header from "../components/Header";
 import Slideshow from "../components/Slideshow";
 import { useParams } from "react-router-dom";
 import "../style/ficheLogement.css";
-import Etoiles from "../components/Etoiles";
+import Rating from "../components/Rating";
 import Tags from "../components/Tag";
 import logements from "../data/logements.json";
 import Menu from "../components/MenuDeroulant";
 import Erreur from "./Erreur404";
+import Footer from "../components/Footer";
 
 export default function FicheLogement() {
   const identifier = useParams();
@@ -16,8 +18,9 @@ export default function FicheLogement() {
 
   return (
     <>
+      <Header />
       <main className="ficheLogement">
-        <div className="carrousel-logement">
+        <div className="carrouselLogement">
           <Slideshow pictures={logement.pictures} />
         </div>
 
@@ -45,8 +48,8 @@ export default function FicheLogement() {
               </div>
             </div>
 
-            <div className="etoile-logement">
-              <Etoiles etoile={logement.etoile} />
+            <div className="notesLogement">
+              <Rating rating={logement.rating} />
             </div>
           </div>
         </div>
@@ -55,16 +58,17 @@ export default function FicheLogement() {
           <div className="menuDescription">
             <Menu title={"Description"} description={logement.description} />
           </div>
-          <div className="menuEquipements ">
+          <div className="menuEquipements">
             <Menu
-              title={"Equipements"}
-              description={logement.equipements?.map((equipement) => (
+              title={"Équipements"}
+              description={logement.equipments.map((equipement) => (
                 <li key={equipement}> {equipement} </li>
               ))}
             />
           </div>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

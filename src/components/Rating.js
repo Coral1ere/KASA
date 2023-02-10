@@ -1,13 +1,15 @@
 import EtoilesVides from "../assets/EtoileVide.png";
 import EtoilesPleines from "../assets/EtoilePleine.png";
+import "../style/rating.css";
+import "../data/logements.json";
 
-export default function Notes({ notes }) {
-  const notesValeur = [];
+export default function Rating({ rating }) {
+  const ratingValue = [];
 
-  for (let i = 0; i < notes; i++) {
-    notesValeur.push(
+  for (let i = 0; i < rating; i++) {
+    ratingValue.push(
       <img
-        key={"etoilePleine" + i}
+        key={"EtoilesPleines" + i}
         className="noteEtoilePleine"
         src={EtoilesPleines}
         alt="Etoiles pleines"
@@ -15,10 +17,10 @@ export default function Notes({ notes }) {
     );
   }
 
-  for (let x = notesValeur.length; x < 5; x++) {
-    notesValeur.push(
+  for (let x = ratingValue.length; x < 5; x++) {
+    ratingValue.push(
       <img
-        key={"etoileVide" + x}
+        key={"EtoilesVides" + x}
         className="noteEtoileVide"
         src={EtoilesVides}
         alt="Etoiles vides"
@@ -27,7 +29,7 @@ export default function Notes({ notes }) {
 
     return (
       <div className="notes">
-        <span key={notes}>{notesValeur}</span>
+        <span key={rating}>{ratingValue}</span>
       </div>
     );
   }

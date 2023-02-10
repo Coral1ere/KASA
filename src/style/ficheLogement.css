@@ -1,12 +1,13 @@
-.fiche-logement {
+.ficheLogement {
   display: flex;
   flex-direction: column;
-  width: 1240px;
   color: rgba(255, 255, 255, 1);
+  margin: 0 1%;
 }
 .dataLogement {
   display: flex;
   justify-content: space-between;
+  margin: 0 5%;
 }
 
 .adressLogement {
@@ -56,6 +57,13 @@
   font-weight: 500;
   font-size: 18px;
   padding-right: 10px;
+  color: #ff6060;
+}
+
+.menuLogement {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
 }
 
 .logementHostPicture {
@@ -91,4 +99,8 @@
 .menuDescription li,
 .menuEquipements li {
   list-style-type: none;
+}
+.notesLogement {
+  width: 30px;
+  height: 30px;
 }

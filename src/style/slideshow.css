@@ -1,36 +1,45 @@
-.container-slideshow {
-  width: 1240px;
-  height: 415px;
+.containerSlideshow {
+  height: 463px;
   overflow: hidden;
   border-radius: 25px;
   position: relative;
+  margin-top: 3%;
 }
 
 .slider {
   position: absolute;
   width: 100%;
-  margin: 1em auto;
-  mix-blend-mode: normal;
+}
+
+.numbertext {
+  z-index: 1;
+  position: absolute;
+  right: 49.11%;
+  top: 86.19%;
+  bottom: 6.01%;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
 }
 
 .slider img {
-  width: 100%;
-  height: auto;
+  max-width: 1373px;
   max-height: 415px;
   object-fit: cover;
   object-position: center;
   border-radius: 25px;
+  margin-left: 5%;
 }
 
 .flecheDroite,
 .flecheGauche {
   position: absolute;
-  justify-content: center;
-  align-items: center;
   top: 40%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  width: 46.68px;
+  height: 79.2px;
+  margin: 0 7%;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -41,12 +50,9 @@
   right: 0;
 }
 
-.numbertext {
+.nbreVues {
   z-index: 1;
   position: absolute;
-  right: 49.11%;
-  top: 86.19%;
-  bottom: 6.01%;
   justify-content: center;
   align-items: center;
   font-size: 18px;

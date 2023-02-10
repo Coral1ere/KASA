@@ -16,7 +16,7 @@ export default function MenuDeroulant(props) {
           <img
             className={isOpen ? "flecheHaute" : "flecheBasse"}
             src={vectorUp}
-            alt=" "
+            alt="Fleche vers le haut"
           />
         </div>
 
@@ -28,6 +28,9 @@ export default function MenuDeroulant(props) {
           >
             <div className="menuDeroulantDescription">
               <p>{props.description}</p>
+            </div>
+            <div className="menuDeroulantEquipements">
+              <p>{props.equipement}</p>
             </div>
           </div>
         )}

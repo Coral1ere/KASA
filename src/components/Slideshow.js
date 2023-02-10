@@ -27,11 +27,11 @@ export default function Slideshow({ pictures }) {
   if (pictures.length > 1) {
     return (
       <>
-        <div className="container-slideshow">
+        <div className="containerSlideshow">
           <div className="slider">
             {pictures.map((picture, index) => (
               <div
-                className="slides-fade"
+                className="slidesDisp"
                 key={index}
                 hidden={currentSlide === index ? false : true}
               >
@@ -56,11 +56,11 @@ export default function Slideshow({ pictures }) {
   } else {
     return (
       <>
-        <div className="container-slideshow">
+        <div className="containerSlideshow">
           <div className="slider">
             {pictures.map((picture, index) => (
               <div
-                className="slides-fade"
+                className="slidesDisp"
                 hidden={currentSlide === index ? false : true}
               >
                 <div className="numbertext">
@@ -71,8 +71,8 @@ export default function Slideshow({ pictures }) {
               </div>
             ))}
 
-            <div className="arrow-back" arrow-backward="false"></div>
-            <div className="arrow-forward" arrow-forward="false"></div>
+            <div className="flecheGauche" flecheGauche="false"></div>
+            <div className="flecheDroite" flecheDroite="false"></div>
           </div>
         </div>
       </>

@@ -1,3 +1,4 @@
+import "../style/tag.css";
 export default function Tags({ tags }) {
   return (
     <div className="tagsWrapper">
