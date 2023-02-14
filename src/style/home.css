@@ -48,9 +48,10 @@
   .logo {
     height: 2.688rem;
     width: 2.5rem;
+    margin-left: 0;
   }
 }
-@media (min-width: 601px) and (max-width: 1100px) {
+@media (min-width: 801px) and (max-width: 1100px) {
   .accueil {
     right: 22.95vw;
   }

@@ -65,7 +65,7 @@
 .menuLogement {
   display: flex;
   justify-content: space-between;
-  margin: 0 5%;
+  margin: 0 6% 0 5%;
 }
 
 .logementHostPicture {
@@ -81,8 +81,7 @@
 .menuDescription {
   display: flex;
   flex-direction: column;
-  width: 41.513vw;
-  max-width: 100%;
+  min-width: 55%;
   color: rgba(255, 96, 96, 1);
   font-size: 1.5rem;
 }
@@ -91,8 +90,7 @@
 }
 
 .menuEquipements {
-  width: 41.513vw;
-  max-width: 100%;
+  min-width: 55%;
 }
 
 .menuDescription li,
@@ -142,11 +140,12 @@
     font-size: 14px;
   }
   .menuDescription {
-    width: 87.513vw;
-    margin-bottom: 7%;
+    width: 101vw;
+    margin-left: 5%;
   }
 
   .menuEquipements {
-    width: 87.513vw;
+    width: 101vw;
+    margin-left: 5%;
   }
 }

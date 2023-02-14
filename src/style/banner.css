@@ -28,7 +28,7 @@
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .banniere {
     align-items: flex-start;
   }
@@ -37,7 +37,8 @@
   }
   .banniere p {
     font-weight: 500;
-    margin: 12% 0 0 -40%;
+    margin: 11% 0 0 -20%;
+    font-size: 24px;
   }
   .banniereImg {
     display: none;
@@ -48,9 +49,10 @@
     object-fit: cover;
     z-index: 1;
     border-radius: 10px;
-    width: 84%;
+    width: 86%;
     height: 111px;
     filter: brightness(0.7);
     margin: 3% 0 -8% 0;
+    object-position: bottom;
   }
 }
