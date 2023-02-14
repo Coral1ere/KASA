@@ -32,7 +32,12 @@ const Collapse = (props) => {
           ></img>
         )}
       </div>
-      {open && <div className="collapseContent"> {props.content} </div>}
+      {open && (
+        <div className="collapseContent">
+          {" "}
+          {props.content} {props.description} {props.equipements}
+        </div>
+      )}
     </div>
   );
 };

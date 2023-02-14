@@ -7,7 +7,18 @@
 }
 
 .notes span {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   display: flex;
+}
+
+@media (max-width: 800px) {
+  .notes span {
+    width: 15px;
+    height: 15px;
+  }
+
+  .notes {
+    margin-top: -22%;
+  }
 }

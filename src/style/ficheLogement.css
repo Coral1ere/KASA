@@ -22,20 +22,21 @@
 }
 
 .titleFicheLogement {
-  font-size: 36px;
+  font-size: 2.25vw;
   line-height: 142.6%;
   color: #ff6060;
+  font-weight: 500;
 }
 
 .txtLocationLogement {
   color: #ff6060;
-  font-size: 18px;
-  margin-top: -25px;
+  font-size: 1.13vw;
+  margin-top: -2%;
 }
 
 .tagLogement {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
 }
 .dataPropLogement {
   display: flex;
@@ -55,9 +56,10 @@
 
 .detailsProp p {
   font-weight: 500;
-  font-size: 18px;
-  padding-right: 10px;
+  font-size: 1.125rem;
+  padding-right: 2vw;
   color: #ff6060;
+  width: min-content;
 }
 
 .menuLogement {
@@ -69,31 +71,28 @@
 .logementHostPicture {
   display: flex;
   justify-content: flex-end;
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
   background: #c4c4c4;
-  margin-right: 10px;
+  margin: 0.5vw 1vw 0 0;
 }
 
 .menuDescription {
   display: flex;
   flex-direction: column;
-  width: 582px;
-  height: 249px;
-  top: 42px;
+  width: 41.513vw;
+  max-width: 100%;
   color: rgba(255, 96, 96, 1);
-  font-size: 24px;
+  font-size: 1.5rem;
+}
+.menuDescriptionDetail {
+  font-size: 1.125vw;
 }
 
 .menuEquipements {
-  display: flex;
-  flex-direction: column;
-  width: 582px;
-  height: 249px;
-  top: 42px;
-  color: rgba(255, 96, 96, 1);
-  font-size: 24px;
+  width: 41.513vw;
+  max-width: 100%;
 }
 
 .menuDescription li,
@@ -103,4 +102,51 @@
 .notesLogement {
   width: 30px;
   height: 30px;
+}
+
+@media (max-width: 800px) {
+  .titleFicheLogement {
+    font-size: 18px;
+  }
+
+  .menuLogement {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dataLogement {
+    flex-direction: column;
+  }
+
+  .notesLogement {
+    margin-top: 5%;
+  }
+
+  .detailsProp p {
+    font-size: 0.75rem;
+    margin-top: 1vw;
+  }
+
+  .dataPropLogement {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 2% 0;
+  }
+
+  .logementHostPicture {
+    width: 32px;
+    height: 32px;
+  }
+
+  .txtLocationLogement {
+    font-size: 14px;
+  }
+  .menuDescription {
+    width: 87.513vw;
+    margin-bottom: 7%;
+  }
+
+  .menuEquipements {
+    width: 87.513vw;
+  }
 }

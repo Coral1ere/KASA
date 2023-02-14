@@ -4,6 +4,7 @@
   background: #000000;
   margin: 6%;
   height: 180px;
+  width: 88%;
   flex-direction: column;
   align-items: center;
 }

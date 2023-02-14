@@ -13,6 +13,7 @@
   color: white;
   font-weight: 500;
   cursor: pointer;
+  height: 1.5rem;
 }
 .collapseContent {
   background-color: #f6f6f6;
@@ -25,7 +26,7 @@
   font-size: 24px;
 }
 
-@media (max-width: 822px) {
+@media (max-width: 800px) {
   .buttonApropos {
     margin: 1% -5% 0 -4%;
     padding: 0 2%;
@@ -33,5 +34,15 @@
   .collapseContent {
     margin: 0 -5%;
     padding-bottom: 11%;
+    font-size: 0.75rem;
+  }
+  .collapseButton p {
+    font-size: 13px;
+  }
+  .vectorDown {
+    width: 0.8rem;
+  }
+  .vectorUp {
+    width: 0.8rem;
   }
 }

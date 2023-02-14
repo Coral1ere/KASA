@@ -7,14 +7,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 174px;
-  height: 25px;
+  width: 11vw;
+  max-width: 100%;
+  height: 1.6vw;
   border-radius: 10px;
   margin: 0 2% 2% 0;
   background: rgba(255, 96, 96, 1);
 }
 
 .tagsLogement span {
-  font-size: 14px;
+  font-size: 0.9vw;
   font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .tagsLogement span {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .tagsLogement {
+    width: 30vw;
+  }
 }

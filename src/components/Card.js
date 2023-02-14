@@ -10,7 +10,7 @@ const Card = () => {
         const { cover, title, id } = item;
         return (
           <div key={id} className="card">
-            <Link to={`/logement/${id} `} className="imgCard">
+            <Link to={`./FicheLogement/${id} `} className="imgCard">
               <img className="cardImg" src={cover} alt={"images Hôtels"} />
               <p className="cardImgP">{title}</p>
             </Link>
