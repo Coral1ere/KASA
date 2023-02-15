@@ -42,6 +42,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  left: 2%;
 }
 
 .ficheProp {
@@ -91,6 +93,7 @@
 
 .menuEquipements {
   min-width: 55%;
+  margin-left: 4%;
 }
 
 .menuDescription li,
