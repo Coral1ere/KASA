@@ -12,9 +12,7 @@ const Card = () => {
           <div key={id} className="card">
             <Link to={`./FicheLogement/${id} `} className="imgCard">
               <img className="cardImg" src={cover} alt={"images Hôtels"} />
-              <div className="cardImgImg">
-                <p className="cardImgP">{title}</p>
-              </div>
+              <p className="cardImgP">{title}</p>
             </Link>
           </div>
         );
