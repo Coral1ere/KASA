@@ -7,14 +7,22 @@ const Card = () => {
   return (
     <div className="LogementsCard">
       {Logements.map((item) => {
-        const { cover, title, id } = item;
+        const { title, id } = item;
+        console.log(item.cover);
         return (
-          <div key={id} className="card">
-            <Link to={`./FicheLogement/${id} `} className="imgCard">
-              <img className="cardImg" src={cover} alt={"images Hôtels"} />
-              <p className="cardImgP">{title}</p>
-            </Link>
-          </div>
+          <Link to={`./FicheLogement/${id}`} className="imgCard">
+            <div
+              key={id}
+              className="card"
+              style={{
+                backgroundImage: "url(" + item.cover + ")",
+              }}
+            >
+              <div className="forGradient">
+                <p className="cardImgP">{title}</p>
+              </div>
+            </div>
+          </Link>
         );
       })}
     </div>
