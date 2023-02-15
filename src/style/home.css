@@ -17,16 +17,18 @@
 .accueil {
   text-decoration: none;
   color: #ff6060;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   position: absolute;
   right: 17.95vw;
+  font-weight: 500;
 }
 .aPropos {
   text-decoration: none;
   color: #ff6060;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   position: absolute;
-  left: 86.65vw;
+  left: 84.65vw;
+  font-weight: 500;
 }
 
 @media (max-width: 800px) {
