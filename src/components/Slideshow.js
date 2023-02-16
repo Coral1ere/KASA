@@ -39,7 +39,7 @@ export default function Slideshow({ pictures }) {
                   {index + 1} / {pictures.length}
                 </div>
 
-                <img src={picture} alt="" style={{ width: "100%" }} />
+                <img src={picture} alt="" />
               </div>
             ))}
 
@@ -67,7 +67,7 @@ export default function Slideshow({ pictures }) {
                   {index + 1} / {pictures.length}
                 </div>
 
-                <img src={picture} alt="" style={{ width: "100%" }} />
+                <img src={picture} alt="Appartement" />
               </div>
             ))}
 

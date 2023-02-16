@@ -30,7 +30,7 @@
 
 .slider img {
   max-height: 415px;
-  max-width: 1386px;
+  width: 90%;
   object-fit: cover;
   object-position: center;
   border-radius: 25px;
@@ -46,6 +46,7 @@
   margin: 0 7%;
   z-index: 1;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .flecheDroite {
@@ -70,7 +71,7 @@
   }
 
   .flecheDroite {
-    margin-right: -9%;
+    margin-right: -8%;
   }
 
   .flecheDroite img,
@@ -86,5 +87,8 @@
 
   .containerSlideshow {
     height: 246px;
+  }
+  .numbertext {
+    right: 38.11%;
   }
 }
