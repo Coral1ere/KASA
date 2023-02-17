@@ -39,7 +39,7 @@ export default function Slideshow({ pictures }) {
                   {index + 1} / {pictures.length}
                 </div>
 
-                <img src={picture} alt="" />
+                <img src={picture} alt="Nombre de photos" />
               </div>
             ))}
 
